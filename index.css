@@ -10,11 +10,11 @@ body{
 }
 .container
 {
-    width: 50%;
+    width: 70%;
     min-height: 40vh;
     background-color:black;
     color: white;
-    margin: 5% 25% 0 25%; 
+    margin: 5% 15% 0 15%; 
     text-align: center;
     color: orange;
     border-radius: 20px;
