@@ -1,0 +1,94 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: -webkit-linear-gradient(to right, #1fddff, #ff4b1f); 
+    background: linear-gradient(to right, #1fddff, #ff4b1f); 
+}
+.container
+{
+    width: 50%;
+    min-height: 40vh;
+    background-color:black;
+    color: white;
+    margin: 5% 25% 0 25%; 
+    text-align: center;
+    color: orange;
+    border-radius: 20px;
+}
+#time
+{
+height: 150px;
+padding: 15px;
+font-size:7rem;
+background-color:black;
+border-radius: 20px 20px 0px 0px;
+border-bottom: 1px solid rgb(177, 173, 173);;
+}
+.hideStop
+{
+    display: none;
+}
+.buttons
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(177, 173, 173);;
+    padding: 15px ;
+    gap: 20%;
+}
+
+.lap
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    border: 0.5px solid;
+    
+}
+.stop
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    border: 0.5px solid;
+}
+.start
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    border: 0.5px solid;
+}
+.reset
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    border: 0.5px solid;
+}
+#ruler
+{
+    color: cadetblue;
+}
+.laps
+{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50%;
+}
+.laps{
+    border-bottom: 1px solid rgb(177, 173, 173);
+}
+.lap-list
+{
+    font-size: 3rem;
+}
